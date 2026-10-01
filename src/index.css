@@ -1,38 +1,14 @@
-﻿@import "tailwindcss";
-
-@theme {
-  --color-bat-bg: #0A0A0C;
-  --color-bat-surface: #121318;
-  --color-bat-card: #181A20;
-  --color-bat-border: #2A2D38;
-  --color-bat-text: #E2E8F0;
-  --color-bat-muted: #8A8A92;
-  --color-bat-yellow: #FACC15;
-  --color-bat-gold: #EAB308;
-  --color-bat-amber: #FBBF24;
-  --color-bat-danger: #D65A5A;
-  --color-bat-success: #5FAE7A;
-
-  --shadow-bat-glow: 0 0 25px -5px rgba(250, 204, 21, 0.3);
-  --shadow-bat-glow-lg: 0 0 35px -5px rgba(250, 204, 21, 0.5);
-  --shadow-card-depth: 0 20px 40px -15px rgba(0, 0, 0, 0.7);
-}
+﻿@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
 
 html, body, #root {
   height: 100%;
-  background: #0A0A0C;
-  color: #E2E8F0;
-}
-
-body {
-  font-family: 'Inter', system-ui, sans-serif;
   margin: 0;
-  overflow-x: hidden;
+  background: #0d1117;
+  color: #e6edf3;
+  font-family: 'Inter', system-ui, sans-serif;
 }
 
-:focus-visible { outline: 2px solid #FACC15; outline-offset: 2px; }
-
-::-webkit-scrollbar { width: 8px; }
-::-webkit-scrollbar-track { background: #0A0A0C; }
-::-webkit-scrollbar-thumb { background: #2A2D38; border-radius: 4px; }
-::-webkit-scrollbar-thumb:hover { background: #FACC15; }
+::-webkit-scrollbar { width: 10px; }
+::-webkit-scrollbar-track { background: #0d1117; }
+::-webkit-scrollbar-thumb { background: #2a3441; border-radius: 5px; }
