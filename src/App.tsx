@@ -1,4 +1,5 @@
-﻿// @ts-nocheck`nimport { useEffect, useRef, useState } from "react";
+﻿// @ts-nocheck
+import { useEffect, useRef, useState } from "react";
 import * as pdfjsLib from "pdfjs-dist";
 import workerUrl from "pdfjs-dist/build/pdf.worker.min.mjs?url";
 import { PDFDocument, degrees, rgb, StandardFonts } from "pdf-lib";
